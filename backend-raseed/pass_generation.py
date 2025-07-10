@@ -15,6 +15,19 @@ import jwt
 import requests
 from google.auth.transport.requests import Request
 from google.oauth2 import service_account
+from dotenv import load_dotenv
+import tempfile
+
+# Load .env from backend directory
+load_dotenv(dotenv_path=Path(__file__).parent.parent / 'backend' / '.env')
+
+# --- Google Credentials Handling ---
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON'):
+    cred2_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON')
+    temp_cred2 = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred2.write(cred2_json.encode())
+    temp_cred2.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = temp_cred2.name
 
 # Configure logging
 logging.basicConfig(
@@ -24,7 +37,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Set credentials to the current service account file
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent / "tempmail_service.json")
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent / "tempmail_service.json") # This line is removed
 
 class WalletPassGenerator:
     """Generate Google Wallet passes from receipt data."""
