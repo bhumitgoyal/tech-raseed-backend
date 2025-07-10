@@ -30,28 +30,6 @@ def check_dependencies():
         print("💡 Please install dependencies: pip install -r requirements.txt")
         return False
 
-def check_credentials():
-    """Check if Google credentials files exist."""
-    backend_raseed = Path(__file__).parent.parent / "backend-raseed"
-    
-    required_files = [
-        "splendid-yeti-464913-j2-e4fcc70357d3.json",
-        "tempmail_service.json"
-    ]
-    
-    missing_files = []
-    for file in required_files:
-        if not (backend_raseed / file).exists():
-            missing_files.append(file)
-    
-    if missing_files:
-        print(f"❌ Missing credential files: {', '.join(missing_files)}")
-        print("💡 Please ensure these files exist in the backend-raseed directory")
-        return False
-    
-    print("✅ All credential files found")
-    return True
-
 def main():
     """Main startup function."""
     print("🚀 Starting TechTitan Consolidated Backend")
@@ -59,10 +37,6 @@ def main():
     
     # Check dependencies
     if not check_dependencies():
-        sys.exit(1)
-    
-    # Check credentials
-    if not check_credentials():
         sys.exit(1)
     
     print("✅ All checks passed")
