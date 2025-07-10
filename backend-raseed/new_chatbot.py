@@ -21,6 +21,26 @@ from vertexai.generative_models import GenerativeModel
 import uvicorn
 
 from fastapi.middleware.cors import CORSMiddleware
+from dotenv import load_dotenv
+import tempfile
+
+# Load .env from backend directory
+load_dotenv(dotenv_path=Path(__file__).parent.parent / 'backend' / '.env')
+
+# --- Google Credentials Handling ---
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON'):
+    cred_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON')
+    temp_cred = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred.write(cred_json.encode())
+    temp_cred.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = temp_cred.name
+
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON'):
+    cred2_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON')
+    temp_cred2 = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred2.write(cred2_json.encode())
+    temp_cred2.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS2'] = temp_cred2.name
 
 # Initialize FastAPI app
 app = FastAPI(title="Enhanced Receipt Chatbot with Google Wallet", version="2.0.0")
@@ -39,12 +59,6 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
-
-# Set credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent / "splendid-yeti-464913-j2-e4fcc70357d3.json")
-
-# Initialize FastAPI app
-# app = FastAPI(title="Enhanced Receipt Chatbot with Google Wallet", version="2.0.0") # This line is removed as per the edit hint.
 
 # Available expense categories
 EXPENSE_CATEGORIES = [
@@ -68,8 +82,6 @@ class ChatResponse(BaseModel):
     timestamp: str
     list_type: Optional[str] = None
     list_items: Optional[List[str]] = None
-
-os.environ['GOOGLE_APPLICATION_CREDENTIALS2'] = str(Path(__file__).parent / "tempmail_service.json")
 
 class EnhancedWalletPassGenerator:
     """Enhanced Google Wallet pass generator with intelligent pass creation"""
@@ -415,7 +427,7 @@ class EnhancedReceiptAnalysisService:
 
     def __init__(self):
         vertexai.init(
-            project=os.getenv("GOOGLE_CLOUD_PROJECT", "splendid-yeti-464913-j2"),
+            project=os.getenv("GOOGLE_CLOUD_PROJECT_ID", "default-project-id"),
             location=os.getenv("GOOGLE_CLOUD_REGION", "us-central1")
         )
         self.gemini = GenerativeModel("gemini-2.5-flash")
