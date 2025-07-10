@@ -39,6 +39,27 @@ from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import aiofiles
 import uvicorn
+from dotenv import load_dotenv
+import tempfile
+
+# Load .env from backend directory
+load_dotenv(dotenv_path=Path(__file__).parent / '.env')
+
+# --- Google Credentials Handling ---
+# Write credentials from env to temp files if present
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON'):
+    cred_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON')
+    temp_cred = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred.write(cred_json.encode())
+    temp_cred.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = temp_cred.name
+
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON'):
+    cred2_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS2_JSON')
+    temp_cred2 = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred2.write(cred2_json.encode())
+    temp_cred2.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS2'] = temp_cred2.name
 
 # Configure logging
 logging.basicConfig(
@@ -64,8 +85,8 @@ app.add_middleware(
 )
 
 # Set up Google credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent.parent / "backend-raseed" / "splendid-yeti-464913-j2-e4fcc70357d3.json")
-os.environ['GOOGLE_APPLICATION_CREDENTIALS2'] = str(Path(__file__).parent.parent / "backend-raseed" / "tempmail_service.json")
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent.parent / "backend-raseed" / "splendid-yeti-464913-j2-e4fcc70357d3.json")
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS2'] = str(Path(__file__).parent.parent / "backend-raseed" / "tempmail_service.json")
 
 # Global variables
 processing_state = {
@@ -405,7 +426,7 @@ class EnhancedReceiptAnalysisService:
     def __init__(self):
         """Initialize the receipt analysis service."""
         self.receipts_file = Path(__file__).parent.parent / "backend-raseed" / "pipeline_receipt.json"
-        self.vertex_project = "splendid-yeti-464913-j2"  # Fixed project ID
+        self.vertex_project = os.getenv("GOOGLE_CLOUD_PROJECT_ID", "default-project-id")
         self.vertex_location = "us-central1"
         
         # Initialize Vertex AI
