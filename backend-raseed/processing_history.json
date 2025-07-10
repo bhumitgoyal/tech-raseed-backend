@@ -1,0 +1,36 @@
+[
+  {
+    "step": "upload",
+    "timestamp": "2025-07-09T21:43:42.306252",
+    "input_file": "uploaded_image_20250709_214329.jpg",
+    "output_file": "receipt_20250709_214339.pdf",
+    "success": true
+  },
+  {
+    "step": "extract",
+    "timestamp": "2025-07-09T21:44:36.174118",
+    "input_file": "receipt_20250709_214339.pdf",
+    "success": true,
+    "extracted_items": 1
+  },
+  {
+    "step": "upload",
+    "timestamp": "2025-07-09T21:46:05.247658",
+    "input_file": "uploaded_image_20250709_214602.jpg",
+    "output_file": "receipt_20250709_214602.pdf",
+    "success": true
+  },
+  {
+    "step": "extract",
+    "timestamp": "2025-07-09T21:46:27.321441",
+    "input_file": "receipt_20250709_214602.pdf",
+    "success": true,
+    "extracted_items": 1
+  },
+  {
+    "step": "passgen",
+    "timestamp": "2025-07-09T21:46:30.273834",
+    "wallet_link": "https://pay.google.com/gp/v/save/eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ3YWxsZXQtdXNlckB3YWxsZXQtYXBpLXByb2plY3QtNDY1MjE4LmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiZ29vZ2xlIiwidHlwIjoic2F2ZXRvd2FsbGV0IiwiaWF0IjoxNzUyMDc3NzkwLjE2NTY2MSwicGF5bG9hZCI6eyJnZW5lcmljT2JqZWN0cyI6W3siaWQiOiIzMzg4MDAwMDAwMDIyOTQ4NDg1LnJlY2VpcHRfZWRiZGJmNzUifV19fQ.bUVgGviRWa_SUkCooVRN6VqpzmlqNBogDxXPwHzBDr9gHDkCy2CKCZyPeH1e6ck36sgck3HGNjPCgXmvtH-1-jPD5phVo09LYIRA0yoReh7vgrlR2BN82m1bQih2yQBtUUkQp_6d7eQowpxsJSDSuBlzX3u1gbLEwAzSX81FmrbzYLXnqLB7u-TcSlnWWj_9RiNEWuHVpjSvCNBpn0YM1Mq3RtkpyYG03eplx5SN6eVjAjyWANf9G0pZJ2jS5sBplEX7_j5oa1afnRmVCCY3fJi62gxyLGpLclKdbCt5D7Jdp9XaqfOJ-c0wrSlQdD6f3IrbaK6FdZdigJZexNVlxQ",
+    "success": true
+  }
+]

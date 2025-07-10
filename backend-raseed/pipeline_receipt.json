@@ -1,0 +1,646 @@
+[
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"GP Delhi",
+    "store_phone":null,
+    "date":"2025-07-07",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in GP Delhi details the purchase of 22.8 liters of Diesel on July 3, 2025, at 12:57 PM. The unit price was ₹87.71, making the total amount ₹2000.00. Payment was processed via Mastercard. The receipt is marked as a customer copy and notes that the PIN was verified, and no signature was required.",
+    "payment_method":"Mastercard (Card)",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN Verified OK. Signature Not Required. I agree to pay as per card issuer agreement. Choose e-receipts to save paper and protect the environment! Customer Copy. 1.0.0.120. BillerApp_1.0.27. Fiserv.",
+    "pdf_path":"https://gofile.io/d/hwtUfe"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-06-12",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt is for a fuel purchase from Bhargavi Auto Services in Delhi on June 12 2025. The transaction, paid via MasterCard, totaled ₹2000.00 for 22.8 liters of Diesel at ₹87.71 per liter. The receipt also notes 'PIN VERIFIED OK' and 'SIGNATURE NOT REQUIRED'.",
+    "payment_method":"Mastercard",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/ctqSZG"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi, dated July 3, 2025, is for a fuel purchase. The customer bought 22.8 liters of Diesel at ₹87.71 per liter, totaling ₹2000.00. Payment was made using a MasterCard, with the transaction being PIN verified and signature not required. This is a customer copy of the sale.",
+    "payment_method":"MASTERCARD",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":null,
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. BillerApp_1.0.27 fiserv.",
+    "pdf_path":"https://gofile.io/d/4OiIkU"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi, dated 2025-07-03, details a purchase of 22.8 liters of Diesel at ₹87.71 per liter, totaling ₹2000.00. The payment was made via Mastercard at 12:57 PM. This transaction is categorized as transportation fuel.",
+    "payment_method":"Mastercard (Card 5241)",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/dyhbeX"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Bhargavi Auto Services GP Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi, dated July 3, 2025, at 12:57 PM, details the purchase of 22.8 liters of Diesel fuel at a unit price of ₹87.71, amounting to a total of ₹2000.00. The transaction was processed via MasterCard, with the PIN verified and no signature required.",
+    "payment_method":"MasterCard",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN Verified OK. Signature Not Required. I agree to pay as per card issuer agreement. Choose e-receipts to save paper and protect the environment! Customer Copy. 1.0.0.120. BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/Fa15Bw"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Bhargavi Auto Services GP, Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi, dated July 3, 2025, at 12:57 PM, shows a purchase of 22.8 liters of Diesel for ₹2000.00. The unit price was ₹87.71 per liter. Payment was made via Mastercard. The total amount paid was ₹2000.00, representing a fuel transaction.",
+    "payment_method":"Mastercard",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/ISNa4c"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi, dated July 3, 2025, documents a fuel purchase. The customer acquired 22.8 liters of Diesel for a total of ₹2000.00, with a unit price of ₹87.71 per liter. The payment was processed via Mastercard. The receipt confirms the transaction was PIN verified and is marked as a customer copy, also encouraging e-receipts for environmental reasons.",
+    "payment_method":"Mastercard",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. 1.0.0.120. BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/BoUDxv"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"GP Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services in Delhi confirms the purchase of 22.8 liters of Diesel for a total of ₹2000.00 on July 3, 2025, at 12:57 PM. The payment was made via Mastercard, verified by PIN. The receipt is a customer copy and includes a note about choosing e-receipts.",
+    "payment_method":"Mastercard",
+    "currency":"₹",
+    "subtotal_amount":"2000.00",
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":"2000.00",
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":"22.8",
+        "unit_price":"87.71",
+        "total_price":"2000.00",
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/GAnyb2"
+  },
+  {
+    "store_name":"Bhargavi Auto Services",
+    "store_address":"Bhargavi Auto Services GP, Delhi",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt is from Bhargavi Auto Services for a fuel purchase on July 3, 2025, at 12:57 PM. The transaction involved buying 22.8 liters of Diesel at a unit price of ₹87.71, totaling ₹2000.00. Payment was made via Mastercard. The receipt serves as a customer copy, indicating a successful and verified transaction with no signature required.",
+    "payment_method":"Mastercard",
+    "currency":"₹",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":null,
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. 1.0.0.120 BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/ab0zCD"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"BHARGAVI AUTO SERVICES GP DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt is from Bhargavi Auto Services for the purchase of 22.8 liters of Diesel fuel. The total amount paid was INR 2000.00 via Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK SIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/ZdDTYU"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"BHARGAVI AUTO SERVICES GP DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Fuel purchase (Diesel) at Bhargavi Auto Services for a total of 2000.00 INR. The transaction was processed via MasterCard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":1999.79,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK SIGNATURE NOT REQUIRED I AGREE TO PAY AS PER CARD ISSUER AGREEMENT Choose e-receipts to save paper and protect the environment! CUSTOMER COPY 1.0.0.120 BillerApp_1.0.27 fiserv.",
+    "pdf_path":"https://gofile.io/d/2t2WD4"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"This receipt from Bhargavi Auto Services indicates a purchase of 22.8 liters of Diesel fuel at a unit price of ₹87.71, totaling ₹2000.00. The payment was made using a Mastercard. The transaction occurred on July 3, 2025, at 12:57 PM.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Fuel"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. 1.0.0.120 BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/D7daik"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES GP",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Fuel purchase (Diesel) at Bhargavi Auto Services in Delhi. The payment was made via MasterCard for a total of 2000.00 INR.",
+    "payment_method":"MASTERCARD (CARD)",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nAGREE TO PAY AS PER CARD ISSUER AGREEEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp_1.0.27\nfiserv.",
+    "pdf_path":"https://gofile.io/d/gxGs6S"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Purchase of 22.8 liters of Diesel fuel for 2000.00 INR at Bhargavi Auto Services, paid using Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/IFuZWP"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Purchase of 22.8 liters of Diesel fuel at Bhargavi Auto Services for a total of 2000.00 INR. The transaction was paid using a Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. 1.0.0.120 BillerApp_1.0.27. fiserv.",
+    "pdf_path":"https://gofile.io/d/gEx4bs"
+  },
+  {
+    "store_name":"The Shop",
+    "store_address":"Chicago, IL",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":null,
+    "bill_number":null,
+    "receipt_category":"Groceries",
+    "Summary":"A grocery receipt from The Shop for various household and food items including dairy products, fresh produce, pantry staples, and personal care items, totaling $25.97.",
+    "payment_method":null,
+    "currency":"USD",
+    "subtotal_amount":250000.97,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":250000.97,
+    "items":[
+      {
+        "item_name":"Large Eggs",
+        "quantity":1,
+        "unit_price":0.99,
+        "total_price":0.99,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Milk",
+        "quantity":1,
+        "unit_price":1.15,
+        "total_price":1.15,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Cottage Cheese",
+        "quantity":1,
+        "unit_price":0.59,
+        "total_price":0.59,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Natural Yogurt",
+        "quantity":1,
+        "unit_price":0.7,
+        "total_price":0.7,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Cherry Tomatoes",
+        "quantity":1,
+        "unit_price":1.29,
+        "total_price":1.29,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Bananas",
+        "quantity":1,
+        "unit_price":0.77,
+        "total_price":0.77,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Aubergine",
+        "quantity":1,
+        "unit_price":1.5,
+        "total_price":1.5,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Cheese Crackers",
+        "quantity":1,
+        "unit_price":2.19,
+        "total_price":2.19,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Chocolate Cookies",
+        "quantity":1,
+        "unit_price":1.82,
+        "total_price":1.82,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Canned Tuna 12pk",
+        "quantity":1,
+        "unit_price":5.95,
+        "total_price":5.95,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Chicken Breast",
+        "quantity":1,
+        "unit_price":2.46,
+        "total_price":2.46,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Toilet Paper",
+        "quantity":1,
+        "unit_price":4.98,
+        "total_price":4.98,
+        "category":"Groceries"
+      },
+      {
+        "item_name":"Baby wipes",
+        "quantity":1,
+        "unit_price":1.59,
+        "total_price":1.59,
+        "category":"Groceries"
+      }
+    ],
+    "tax_breakdown":null,
+    "footer_notes":null,
+    "pdf_path":"/Users/maisha.m/Downloads/TechTitan/backend-raseed/receipt_20250710_023639.pdf"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"BHARGAVI AUTO SERVICES OP DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Purchase of Diesel fuel from Bhargavi Auto Services paid via Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Fuel"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK SIGNATURE NOT REQUIRED I AGREE TO PAY AS PER CARD ISSUER AGREEMENT Choose e-receipts to save paper and protect the environment! CUSTOMER COPY 1.0.0.120 BillerApp 1.0.27 fiserv.",
+    "pdf_path":"/Users/maisha.m/Downloads/TechTitan/backend-raseed/receipt_20250710_024423.pdf"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Fuel purchase for diesel at Bhargavi Auto Services. The transaction was for 22.8 liters of diesel at a unit price of 87.71, totaling 2000.00 paid via Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK. SIGNATURE NOT REQUIRED. AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY.",
+    "pdf_path":"/Users/maisha.m/Downloads/TechTitan/backend-raseed/receipt_20250710_033733.pdf"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"Purchase of diesel fuel from Bhargavi Auto Services. The transaction was paid via Mastercard, amounting to 2000.00 Indian Rupees for 22.8 liters of diesel.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Transportation"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK\nSIGNATURE NOT REQUIRED\nI AGREE TO PAY AS PER CARD ISSUER AGREEMENT\nChoose e-receipts to save paper and protect the environment!\nCUSTOMER COPY\n1.0.0.120\nBillerApp 1.0.27\nfiserv.",
+    "pdf_path":"/Users/maisha.m/Downloads/TechTitan/backend-raseed/receipt_20250710_033921.pdf"
+  },
+  {
+    "store_name":"BHARGAVI AUTO SERVICES",
+    "store_address":"DELHI",
+    "store_phone":null,
+    "date":"2025-07-03",
+    "time":"12:57",
+    "bill_number":"002524",
+    "receipt_category":"Transportation",
+    "Summary":"A fuel purchase for diesel was made at Bhargavi Auto Services. The transaction was paid using a Mastercard.",
+    "payment_method":"MASTERCARD",
+    "currency":"INR",
+    "subtotal_amount":2000.0,
+    "tax_amount":null,
+    "tip_amount":null,
+    "total_amount":2000.0,
+    "items":[
+      {
+        "item_name":"Diesel",
+        "quantity":22.8,
+        "unit_price":87.71,
+        "total_price":2000.0,
+        "category":"Fuel"
+      }
+    ],
+    "tax_breakdown":[],
+    "footer_notes":"PIN VERIFIED OK SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. BillerApp 1.0.27.",
+    "pdf_path":"https://gofile.io/d/T7cEFj"
+  }
+]

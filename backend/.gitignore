@@ -21,7 +21,7 @@ ENV/
 *.bmp
 *.tiff
 *.tif
-*.json
+# *.json   # <-- Commented out to allow non-sensitive JSON files
 
 # OS files
 .DS_Store

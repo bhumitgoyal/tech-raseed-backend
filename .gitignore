@@ -60,7 +60,7 @@ htmlcov/
 *.bmp
 *.tiff
 *.tif
-*.json
+# *.json   # <-- Commented out to allow non-sensitive JSON files
 
 # Node modules (if any JS tooling)
 node_modules/

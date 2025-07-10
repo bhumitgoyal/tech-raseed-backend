@@ -1,0 +1,28 @@
+{
+  "store_name":"BHARGAVI AUTO SERVICES",
+  "store_address":"DELHI",
+  "store_phone":null,
+  "date":"2025-07-03",
+  "time":"12:57",
+  "bill_number":"002524",
+  "receipt_category":"Transportation",
+  "Summary":"A fuel purchase for diesel was made at Bhargavi Auto Services. The transaction was paid using a Mastercard.",
+  "payment_method":"MASTERCARD",
+  "currency":"INR",
+  "subtotal_amount":2000.0,
+  "tax_amount":null,
+  "tip_amount":null,
+  "total_amount":2000.0,
+  "items":[
+    {
+      "item_name":"Diesel",
+      "quantity":22.8,
+      "unit_price":87.71,
+      "total_price":2000.0,
+      "category":"Fuel"
+    }
+  ],
+  "tax_breakdown":[],
+  "footer_notes":"PIN VERIFIED OK SIGNATURE NOT REQUIRED. I AGREE TO PAY AS PER CARD ISSUER AGREEMENT. Choose e-receipts to save paper and protect the environment! CUSTOMER COPY. BillerApp 1.0.27.",
+  "pdf_path":"https://gofile.io/d/T7cEFj"
+}
