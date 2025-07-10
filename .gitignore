@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Log files
+*.log
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+.nox/
+
+# Data and media files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.json
+
+# Node modules (if any JS tooling)
+node_modules/
+
+# Ignore credential files (add your actual credential file names here)
+backend-raseed/splendid-yeti-464913-j2-e4fcc70357d3.json
+backend-raseed/tempmail_service.json
+
+# Ignore temp and backup files
+*.bak
+*.tmp
+*~
+
+# Ignore shell history
+*.sh_history
+
+# Ignore migration and reload artifacts
+backend-raseed/reload 

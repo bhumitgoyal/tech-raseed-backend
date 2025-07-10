@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+
+# Data/media files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Credential files
+splendid-yeti-464913-j2-e4fcc70357d3.json
+tempmail_service.json
+
+# Temp files
+*.tmp
+*~ 
