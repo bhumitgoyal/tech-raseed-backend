@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wallet-api-project-465218",
+  "private_key_id": "a24d6327af82d5fa66ed52af3e26e23632ff1159",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDTfbluCuhnYD2b\n9q5QBrBP3ahgp5m1E1s1QFoh+N+qvkSPLeOuqoFgfft73kHY00bVvWWWjudBDvLQ\nM44WUEkq/adWPEjYPQSHA7g8GoF34eE2JDeuyzxdeFiIi4bW7mWMdtyg58WFAvvR\n7qn16sMDUsTUMziGu2dHI7mTXP/owjBs/+wAxGXaiTCLxi2Td4xtyvuSnbupsZI1\n93Ph2dnelcv8ortJHl61SV1uGRb4uX6FeAeLTTEkb3u66hV7OaKYP1trmVGWjDx5\neVuRXjc+TrI7ag8P34VAkIeB01f//ElxkQdJOFvr4IMLQIfL6xy55fDcRWHAMTtx\nvg1KOlQBAgMBAAECggEADg4veihAbMphHdHloMzo/83P6GiLFxUrvRzDQLm9B6hw\nfwGCPbP4ODT3NzK8to/IB+F39GsX5GN9cKfUfBgm3LQR4HHON4zKlbyCDICIdTKu\nWH5MsxGvt9iNLbn0IqmiVxT5MbpljqL1oGyXoA/TmQ9xpFapHY8r3Hb72NbX7RyH\nvfp/b5qLQUeQKIYO/XskhBJ4omx1Adhjayc9Nvlht2s9YmbWNISQPEtsa8mZpNn6\n7fJXp9IZwxfRnh98A/YFO90IV/hfUxJfZ5GeRqXbu68yp3dMVNJiQXTrtkLuX7VJ\noyceGadNCA1xpgUrLD68JrbTbwkwYFIz1nIsVX8TaQKBgQD7BG/osvJejLUR97pZ\n8gqqM2M+eh//0LLCTr09ya874HRfc0Xt/c52FHUG1JdC6CATowv/szHI8Yw2tFVR\nzL8mexRe11/U2xgb8hD6nsMDEa1iYUESWlhPdxYda2VGCBScR2kovRbxgXdN9ms7\n2QJZvkUTqCslsI05AZ7Pum+RfQKBgQDXsG6Le4yuTDkSQnO2gS3CGCOxZ8Ziowt+\nBoQ352fo2yHCQODdrAM/49M1d4D66zXVgkcGZQIR0NCYhVN8NnwPcYaMQeVNZCjG\n/JszLLpkQDTomiBM1+3UMst8gNYCD6ulQ0SCBIKXY1v4iz+rnL+nXG8o+Wg8Yj7+\nQZISpSIT1QKBgDuhvTgpsrxVbvqawFF316LBXHVOK+Xo3V6duAVCsXdnBh5a0yUL\no42XpIl/3YNOg7hGhqYzGsOi5m1kf9RT8KEioh85yRFXDy4sXm47YxaKj4cMlZnX\njp0qLD3G8qMlbkgGCuxbp2SuHfqObMEl95H8Soq167IjdBkz0leE8dY9AoGAd4lH\narQ5XmvOAWmkuZPUKUq5lVt/HjFgcCLqahUsiGfRyNeuCAyJ7IG2D17As89hkYfX\nFxspz3fb83uIrkF/9gsj11252G9XDhj3ZqA2WNMgv3yTxCKzozPXhJPeh1vp8/hY\n4nnfakldslxyGAkSSo226Y14EGcepEjwzLaKMVUCgYB77UMIYBCyYxy+9j3f65t4\nkXHzptDbYiSGlmJdSSju8CINoAYQikajcWSCq1SPvqWV1DS9YFxk+nOeCcRu1pqj\nnZaT0asyQ9r/CTgBtPptDs8RPYqC7kNLc5WnWgC2VMsW7ReiV6WZgjqLRo4LErCy\nhHNbqkrozrDthc1PQaG9QA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "wallet-user@wallet-api-project-465218.iam.gserviceaccount.com",
+  "client_id": "114722299333780043308",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wallet-user%40wallet-api-project-465218.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
