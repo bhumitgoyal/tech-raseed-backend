@@ -14,6 +14,19 @@ from pathlib import Path
 from typing import Optional, Dict, Any
 import vertexai
 from vertexai.generative_models import GenerativeModel, Part
+from dotenv import load_dotenv
+import tempfile
+
+# Load .env from backend directory
+load_dotenv(dotenv_path=Path(__file__).parent.parent / 'backend' / '.env')
+
+# --- Google Credentials Handling ---
+if os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON'):
+    cred_json = os.getenv('GOOGLE_APPLICATION_CREDENTIALS_JSON')
+    temp_cred = tempfile.NamedTemporaryFile(delete=False, suffix='.json')
+    temp_cred.write(cred_json.encode())
+    temp_cred.close()
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = temp_cred.name
 
 # Configure logging
 logging.basicConfig(
@@ -23,12 +36,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Vertex AI configuration
-PROJECT_ID = "splendid-yeti-464913-j2"  # Updated to match service account
+PROJECT_ID = os.getenv("GOOGLE_CLOUD_PROJECT_ID", "default-project-id")  # Updated to match service account
 LOCATION = "us-central1"  # Replace with your preferred location
 MODEL_NAME = "gemini-2.5-flash"  # or "gemini-1.5-pro"
 
 # Set credentials to the current service account file
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent / "splendid-yeti-464913-j2-e4fcc70357d3.json")
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = str(Path(__file__).parent / "splendid-yeti-464913-j2-e4fcc70357d3.json")
 
 class ReceiptParser:
     def upload_to_gofile(self, pdf_path: str) -> Optional[str]:
